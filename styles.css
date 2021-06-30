@@ -142,7 +142,7 @@ footer {
   margin-right: 20px;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1439px) {
+@media only screen and (min-width: 375px) and (max-width: 480px) {
   #nav-menu,
   #image-transform-desktop,
   #image-stand-out-desktop,
@@ -365,6 +365,18 @@ footer {
     margin-left: 50px;
     margin-right: 50px;
   }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* iPads, Tablets */
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Small screens, laptops */
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  /* Desktops, large screens */
 }
 
 @media only screen and (min-width: 1440px) {
